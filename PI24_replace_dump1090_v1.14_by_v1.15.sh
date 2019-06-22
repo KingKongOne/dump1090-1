@@ -3,7 +3,7 @@
 if ! [ -f  /usr/lib/fr24/install_dump1090.sh ]; then echo "fr24feed not installed, install fr24feed before using this script!"; exit 1; fi
 
 #Check setting is dvbt, if not exit
-if ! grep -q "^receiver.*dvbt" /etc/fr24feed.ini; then exit 1; fi
+if ! grep -q "^receiver.*dvbt" /etc/fr24feed.ini; then echo "setting is NOT receiver=dvbt.....halting installation"; exit 1; fi
 
 #Fix PI24 image's "readonly file system".
 sudo mount -o remount,rw /
