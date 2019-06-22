@@ -6,6 +6,7 @@ wget -O ${PWD}/dump1090-mutability_1.15_dev_armhf.deb https://github.com/abcd567
 cd ${PWD}
 sudo dpkg -i dump1090-mutability_1.15_dev_armhf.deb
 sudo wget -O /etc/udev/rules.d/rtl-sdr.rules "https://raw.githubusercontent.com/osmocom/rtl-sdr/master/rtl-sdr.rules" 
+sudo dpkg-reconfigure dump1090-mutability
 echo "--------------------"
 echo "INSTALLATION DONE!"
 echo "--------------------"
