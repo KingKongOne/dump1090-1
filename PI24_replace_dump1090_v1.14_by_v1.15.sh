@@ -22,10 +22,10 @@ sudo service lighttpd force-reload
 
 sudo systemctl restart fr24feed
 
-echo -e "\e[32m---------------"
-echo -e "\e[32mALL DONE !"
-echo -e "\e[32m---------------"
-echo -e "\e[91mREBOOT RPi"
+echo -e "\e[32m---------------\e[39m"
+echo -e "\e[32mALL DONE !\e[39m"
+echo -e "\e[32m---------------\e[39m"
+echo -e "\e[91mREBOOT RPi\e[39m"
 echo "After reboot, go to your broweser and check map on following address"
 echo "http://IP-of-Pi/dump1090/"
 echo "If new map does not show:"
