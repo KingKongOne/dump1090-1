@@ -4,7 +4,11 @@ Package (1) Raspberry Pi 2 Model B ARMv7 / Raspbian Stretch </br>
 Package (2) Intel amd64 computer / Ubuntu 18 </br>
 
 ### Raspberry Pi / Raspbian - BASH SCRIPT INSTALL
-`sudo bash -c "$(wget -O - https://raw.githubusercontent.com/abcd567a/dump1090/master/install_dump1090_mut_1.15.sh)" `</br>
+
+```
+sudo bash -c "$(wget -O - https://raw.githubusercontent.com/abcd567a/dump1090/master/install_dump1090_mut_1.15.sh)" 
+```
+</br>
 
 ### Raspberry Pi / Raspbian - MANUAL INSTALL </br>
 
