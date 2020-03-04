@@ -23,7 +23,7 @@ cd /home/pi/
 
 sudo dpkg -i dump1090-mutability_1.15_dev_armhf.deb 
 
-sudo wget -O /etc/udev/rules.d/rtl-sdr.rules "https://raw.githubusercontent.com/osmocom/rtl-sdr/master/rtl-sdr.rules" 
+sudo wget -O /etc/udev/rules.d/rtl-sdr.rules "https://raw.githubusercontent.com/osmocom/rtl-sdr/f2a9a81/rtl-sdr.rules" 
 
 sudo reboot 
 
@@ -58,7 +58,7 @@ cd /home/pi/
 
 sudo dpkg -i dump1090-mutability_1.15.dev_amd64.deb 
 
-sudo wget -O /etc/udev/rules.d/rtl-sdr.rules "https://raw.githubusercontent.com/osmocom/rtl-sdr/master/rtl-sdr.rules"  
+sudo wget -O /etc/udev/rules.d/rtl-sdr.rules "https://raw.githubusercontent.com/osmocom/rtl-sdr/f2a9a81/rtl-sdr.rules"  
 
 sudo reboot 
 
